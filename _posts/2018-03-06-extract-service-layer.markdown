@@ -321,9 +321,10 @@ stateless.
 
 Бизнес-логику из контроллеров вынесли в [Service Layer]. Трудность выполнения
 сценариев в Rails-консоли устранена. Однако, появилась проблема с
-производительностью. В следующей части будем её решать.
+производительностью. В [следующей части][extract-app-context] будем её решать.
 
 [new-project-old-problems]: {{site.baseurl}}{% post_url 2018-02-22-new-project-old-problems %}
+[extract-app-context]: {{site.baseurl}}{% post_url 2018-03-19-extract-app-context %}
 [Service Layer]: https://martinfowler.com/eaaCatalog/serviceLayer.html
 [layered-architecture]: https://martinfowler.com/bliki/PresentationDomainDataLayering.html
 [Domain Model]: https://martinfowler.com/eaaCatalog/domainModel.html
