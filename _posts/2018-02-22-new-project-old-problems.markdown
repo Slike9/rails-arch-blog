@@ -90,9 +90,11 @@ web-части, api, админки, не говоря о sidekiq-джобах, 
 слои, применив [Presentation-Domain-Data Layering][layered-architecture] и
 [Service Layer].
 
-В последующих статьях подробно опишу этапы намеченного рефакторинга.
+В последующих статьях подробно опишу этапы намеченного рефакторинга. Начнём с
+[выделения Service Layer][extract-service-layer].
 
-[Service Layer]: https://martinfowler.com/eaaCatalog/serviceLayer.html
+[extract-service-layer]: {{site.baseurl}}{% post_url 2018-03-06-extract-service-layer %}
 [layered-architecture]: https://martinfowler.com/bliki/PresentationDomainDataLayering.html
+[Service Layer]: https://martinfowler.com/eaaCatalog/serviceLayer.html
 
 [modeline]: # ( vim: set tw=80 spell spl=ru,en: )
